@@ -1,0 +1,198 @@
+💲brew install vim
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 3 taps (homebrew/core, homebrew/cask and dart-lang/dart).
+==> New Formulae
+detach                        fcct                          oha
+==> Updated Formulae
+cmake ✔                       docutils                      otf2
+curl ✔                        dolt                          paket
+imagemagick ✔                 easyrpg-player                pdfpc
+openldap ✔                    envconsul                     pdftoipe
+poppler ✔                     erlang                        pgbouncer
+abcl                          erlang@21                     picard-tools
+algol68g                      exploitdb                     pinboard-notes-backup
+alot                          fasttext                      platformio
+ammonite-repl                 ffmpeg                        pylint
+ansible                       ffmpeg@2.8                    qbs
+ansible@2.8                   firebase-cli                  qemu
+artifactory                   fish                          qmmp
+asio                          folly                         quazip
+astrometry-net                fonttools                     robot-framework
+atlantis                      frpc                          rsyslog
+aws-cdk                       frps                          rust
+awscli                        fselect                       salt
+awscli@1                      gatsby-cli                    sbcl
+azure-cli                     git-trim                      serverless
+azure-storage-cpp             gjs                           simple-scan
+b3sum                         gpgme                         sonobuoy
+bde                           gsettings-desktop-schemas     sourcery
+bgpdump                       http-server                   spades
+binaryen                      igraph                        sphinx-doc
+bitrise                       imagemagick@6                 spotbugs
+blitz                         inform6                       sql-translator
+bochs                         ipfs                          starship
+buildifier                    kubectx                       suricata
+calabash                      languagetool                  tektoncd-cli
+cglm                          liblcf                        telegraf
+cgoban                        logtalk                       terragrunt
+consul-template               luaradio                      traefik
+contentful-cli                makeself                      treefrog
+cups                          meilisearch                   triton
+curl-openssl                  minio                         uftp
+cypher-shell                  minio-mc                      urh
+darcs                         mu                            vgmstream
+datetime-fortran              mypy                          vim
+davix                         nagios                        vulkan-headers
+dbmate                        nestopia-ue                   wasm3
+detox                         node@12                       whistle
+diamond                       notmuch                       wolfmqtt
+diff-pdf                      nrpe                          wtf
+dita-ot                       okteto                        xapian
+dnstwist                      opa
+doctl                         open-image-denoise
+==> Deleted Formulae
+open-cobol
+==> Updated Casks
+alt-tab                                       mongodb-compass-community
+anki                                          mongodb-compass-isolated-edition
+another-redis-desktop-manager                 mongodb-compass-readonly
+anydo                                         moonlight
+appcode                                       mountain-duck
+arq-cloud-backup                              netron
+authy                                         nteract
+avocode                                       nvidia-geforce-now
+axe-electrum                                  openbazaar
+axure-rp                                      outline-manager
+azure-data-studio                             pdfpen
+balsamiq-wireframes                           pdfpenpro
+battlescribe                                  pixelsnap
+camtasia                                      plex
+chalk                                         plex-media-player
+chromium                                      polymail
+clion                                         popo
+clip-studio-paint                             postbox
+cloudapp                                      proclaim
+cmake                                         qlfits
+cryptomator                                   qownnotes
+cyberduck                                     qq
+electron                                      qtox
+flock                                         reaper
+forklift                                      rhinoceros
+funter                                        robofont
+ganache                                       roboform
+github                                        royal-tsx
+glyphs                                        runway
+google-chrome                                 screen
+http-toolkit                                  scrutiny
+ipfs                                          signal
+jetbrains-toolbox                             sketch
+juicebar                                      splashtop-business
+kap                                           sqlpro-studio
+katalon-studio                                swift-publisher
+keka                                          teamviewer
+kite                                          termius
+lastpass                                      tidepool-uploader
+lehreroffice                                  tiles
+lifesize                                      trilium-notes
+listen1                                       tuple
+lunar                                         twist
+mactracker                                    ultimaker-cura
+malwarebytes                                  upic
+merlin-project                                vidrio
+metasploit                                    vivaldi
+min                                           vlc
+moneywiz                                      webcatalog
+mongodb-compass                               wondershare-filmora
+
+==> Installing dependencies for vim: lua, perl and ruby
+==> Installing vim dependency: lua
+==> Downloading https://homebrew.bintray.com/bottles/lua-5.3.5_1.catalina.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring lua-5.3.5_1.catalina.bottle.tar.gz
+==> Caveats
+You may also want luarocks:
+  brew install luarocks
+==> Summary
+🍺  /usr/local/Cellar/lua/5.3.5_1: 28 files, 286.5KB
+==> Installing vim dependency: perl
+==> Downloading https://homebrew.bintray.com/bottles/perl-5.30.2_1.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/b2/b25dbfa43f3fea68a3acdf7f59e18a0d694ac18
+######################################################################## 100.0%
+==> Pouring perl-5.30.2_1.catalina.bottle.tar.gz
+==> Caveats
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.zshrc
+==> Summary
+🍺  /usr/local/Cellar/perl/5.30.2_1: 2,444 files, 62MB
+==> Installing vim dependency: ruby
+==> Downloading https://homebrew.bintray.com/bottles/ruby-2.7.1_2.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/c9/c9ee36823a8dfe2686c6d7a3faf5061a032ed0b
+######################################################################## 100.0%
+==> Pouring ruby-2.7.1_2.catalina.bottle.tar.gz
+==> Caveats
+By default, binaries installed by gem will be placed into:
+  /usr/local/lib/ruby/gems/2.7.0/bin
+
+You may want to add this to your PATH.
+
+ruby is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ruby first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ruby you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"
+
+For pkg-config to find ruby you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/ruby/2.7.1_2: 20,142 files, 32.2MB
+==> Installing vim
+==> Downloading https://homebrew.bintray.com/bottles/vim-8.2.0654.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/6a/6a7524e47eb80df02d815858562410a4b0f7ea6
+######################################################################## 100.0%
+==> Pouring vim-8.2.0654.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/vim/8.2.0654: 1,888 files, 32.6MB
+==> Caveats
+==> lua
+You may also want luarocks:
+  brew install luarocks
+==> perl
+By default non-brewed cpan modules are installed to the Cellar. If you wish
+for your modules to persist across updates we recommend using `local::lib`.
+
+You can set that up like this:
+  PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+  echo 'eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"' >> ~/.zshrc
+==> ruby
+By default, binaries installed by gem will be placed into:
+  /usr/local/lib/ruby/gems/2.7.0/bin
+
+You may want to add this to your PATH.
+
+ruby is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ruby first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ruby you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ruby/lib"
+  export CPPFLAGS="-I/usr/local/opt/ruby/include"
+
+For pkg-config to find ruby you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+
+~/dev/vim-tutorial
+
+💲 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
