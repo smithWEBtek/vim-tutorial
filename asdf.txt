@@ -1,14 +1,8 @@
-===============================================================================
-=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      =
-===============================================================================
+Here is some text I want to copy.
+Here is some text I want to copy.
 
-     Vim is a very powerful editor that has many commands, too many to
-     explain in a tutor such as this.  This tutor is designed to describe
-     enough of the commands that you will be able to easily use Vim as
-     an all-purpose editor.
-
-     The approximate time required to complete the tutor is 30 minutes,
-     depending upon how much time is spent with experimentation.
+And some additional text.
+And some additional text.
 
      ATTENTION:
      The commands in the lessons will modify the text.  Make a copy of this
